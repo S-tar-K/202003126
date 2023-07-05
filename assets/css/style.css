@@ -1,0 +1,97 @@
+body {
+   font-family: 'Montserrat', sans-serif;
+   color: #ffffff;
+   background-color: rgb(166, 228, 250);   
+}
+
+.timeTable {
+    background-color: none;
+}
+
+tr:hover {
+    background: rgba(240,173,78, 0.801); 
+}
+
+tr:hover td {
+    background: rgba(187, 107, 4, 0.801);
+}
+
+.panel {
+    background: rgba(54, 57, 251, 0.5); 
+    text-shadow: 1.7px 1.7px 3px #000000;
+    border: 3px solid rgb(0, 0, 0); 
+    padding: 10px;
+    box-shadow: 2px 2px 6px #292828;
+}
+
+h2 {
+    font-size: 1.7em;
+}
+
+.form-horizontal {
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+label {    
+    padding-bottom: 8px;
+    padding-left: 3px; 
+}
+
+.panel-primary >.panel-heading {
+    color: #ffffff;
+    font-size: 20px;  
+    font-weight: bold;
+    background: rgba(70, 180, 243, 0.5); 
+    border: 2px solid rgb(9, 1, 255); 
+    margin-bottom: 5px;    
+          
+}
+
+.jumbotron {
+    width: 100%;
+    background: rgba(54, 57, 251, 0.5);
+    color: #ffffff;
+    text-shadow: 3px 3px 5px #000000;  
+    border: 3px solid rgb(0, 0, 0);
+    margin-top: 20px;
+}
+
+.bgM {
+    width: 100%;
+}
+.sidebar {
+    color: #ffffff;
+    background: rgba(251, 192, 54, 0.5);
+    border: 1px solid rgb(9, 1, 255);  
+}
+
+
+#submit {
+    width: 100%;
+    text-shadow: 2px 2px 3px #000000;
+}
+
+/* Media Screen */
+
+@media screen and (max-width:980px) {  
+}
+
+@media screen and (max-width:768px) {
+}
+
+@media screen and (max-width:640px) {
+}
+
+@media (max-width: 640px) {
+    #masthead {
+      position: static;
+    }
+}
+
+@media (max-width: 768px) {
+  .sidebar {
+    float: none;
+    max-width: 100%;
+    }
+}
